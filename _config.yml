@@ -17,9 +17,7 @@ locale: "en-US"
 title: CurieOS
 email: caroline@curieos.com
 description: >-
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Caroline is a maker with a variety of interests. She's going to school to be a toolmaker and gets into all manner of things.
 github_username: curieos
 minimal_mistakes_skin: mint
 search: true
@@ -61,7 +59,7 @@ plugins:
 author:
   name   : "Caroline Longnecker"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Maker and 3D printing enthusiast. Studying to be a toolmaker."
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -81,9 +79,9 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: true
-      share: true
+      share: false
       related: true
   # _pages
   - scope:
